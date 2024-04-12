@@ -1,0 +1,452 @@
+body {background-color: rgba(0, 160, 174, 1);
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-div{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: none;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0;
+    background-color: #FA6B65;
+    color: #FFF;
+    text-align: center;
+    font-family: "Libre Franklin";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    letter-spacing: -0.352px;
+}
+.menu{
+    display: none;
+}
+.inner-nav{
+    padding: 15px;
+
+}
+.change{
+    background-color: #c43f48;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: none;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: "Libre Franklin";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    letter-spacing: -0.352px;
+    
+}
+
+.nav-button{
+    align-items: center;
+    display: inline;
+    padding: 15px;
+}
+.Donate {
+    display: inline;
+    width: 89px;
+    height: 31px;
+    flex-shrink: 0;
+    border-radius: 36.5px;
+    border: 1px solid #FFF;
+    background: #69BE5C;
+    color: #FFF;
+    text-align: center;
+    font-family: "Libre Franklin";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.352px;
+}
+.Donate-colore {
+    display: inline;
+    width: 89px;
+    height: 31px;
+    flex-shrink: 0;
+    border-radius: 36.5px;
+    border: 1px solid #FFF;
+    background: #7ef96b;
+    color: #FFF;
+    text-align: center;
+    font-family: "Libre Franklin";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.352px;
+}
+.heroImg {
+    width: 1440px;
+    height: 365px;
+    flex-shrink: 0;
+    object-fit: cover;
+    display: flex;
+    /* grid-column: 1 / -1;
+    grid-row: 2 /3;
+    order: 1; */
+}
+.announcement {
+    list-style-type: none;
+    /* margin: 0;  */
+    float: left;
+    display: block;
+    width: 1440px;
+    height: 122px;
+    flex-shrink: 0;
+    background-color: #F4DF57;
+    color: #000;
+    text-align: center;
+    font-family: "Libre Franklin";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+.calender-h1 {
+    padding-top: 34px;
+    color: #FFF;
+    font-family: "Libre Franklin";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 84px */
+    letter-spacing: -1.232px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+  }
+.calenderimg{
+    flex: auto;
+    max-width: 100%;
+    height: auto;
+
+}
+.calender-h2 {
+    color: #FFF;
+    font-family: "Libre Franklin";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    letter-spacing: -0.88px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: none;
+    justify-content: center;
+    align-items: center;
+  }
+.h2-div{
+text-align: center;
+padding: 10px;
+}
+.calender-p1{
+    color: #F4DF57;
+    font-family: "Libre Franklin";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    /* line-height: 150%;  */
+    letter-spacing: -0.44px;
+  }
+.calender-p2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* padding: 10px; */
+    color: #FFF;
+    font-family: "Libre Franklin";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    /* line-height: 150%; */
+    letter-spacing: -0.44px;
+    text-decoration-line: underline;
+  }
+.p2-div{
+    /* text-align: left; */
+    /* padding: 10px; */
+    align-items:center;
+    justify-content: center;
+    /* border:1px solid #000; */
+    display: flex;
+    flex-direction: column;
+}
+.p3-div{
+    /* text-align: left; */
+    padding: 40px;
+    align-items:center;
+    justify-content: center;
+    /* border:1px solid #000; */
+    display: flex;
+}
+.calender-p3{
+    color: #FFF;
+    font-family: "Libre Franklin";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    /* line-height: 150%; */
+    letter-spacing: -0.44px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: none;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0;
+  }
+
+.reminder {
+    width: 261px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 47.5px;
+    background:#fca710;
+    color: #FFF;
+    text-align: center;
+    font-family: "Libre Franklin";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 42px */
+    letter-spacing: -0.532px;
+    border: 1px solid #fca710;
+    
+  }
+.toyota {
+    width: 1440px;
+    height: 178px;
+    flex-shrink: 0;
+}
+/* .column {
+    width: none;
+  } */
+footer {
+    display: flex;
+    flex-direction: row;
+    /* list-style-type: none; */
+    flex-wrap: nowrap;
+    margin: 0; 
+    justify-content: center;
+    gap: 10px 250px;
+    /* float: left;
+    display: block; */
+    /* width: 1440px;
+    height: 554px; */
+    flex-shrink: 0;
+    background-color:#7146C4;
+    padding-top: 60px;   
+}
+/* .column{
+    width:250px ;
+    align-items: left;
+    padding: 10px;
+    margin: 5px;
+} */
+
+.column1 {
+    width:250px ;
+    /* height: 134px; */
+    /* flex-shrink: 0; */
+    /* flex-direction: row; */
+    text-align: left;
+    padding: 10px;
+    margin: 5px;
+    /* padding: 10px;
+    margin: 5px; */
+    align-items: left;
+    /* float: right; */
+    /* width: 100%; */
+    /* grid-row: auto; */
+}
+.column2 {
+    width: 250px;
+    /* height: 180px; */
+    /* flex-shrink: 0;
+    flex-direction: row; */
+    text-align: left;
+    padding: 10px;
+    margin: 5px;
+    /* align-items: center;
+    float: left;
+    width: 100%;
+    grid-row: auto; */
+}
+.contact-info-1 {
+    color: #FFF;
+    font-family: "Libre Franklin";
+    font-size: 18px;
+    /* font-style: normal;
+    font-weight: 300;
+    line-height: 150%;  */
+    /* letter-spacing: -0.396px; */
+    /* padding: 5px; */
+
+
+}
+.column2 .contact-info{
+    width: 300px;
+}
+#fiesta-footer-logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* padding: 20px; */
+    align-content: left;
+    justify-content: center;
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0px;
+    align-content: left;
+    justify-content: center;
+    padding-top: 25px;
+}
+.social-media img {
+    padding: 20px;
+}
+.p1 {
+    color: #FFF;
+    font-family: "Libre Franklin";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 27px */
+    letter-spacing: -0.396px;
+    text-decoration-line: underline;
+}
+.p2 {
+    color: #FFF;
+    font-family: "Libre Franklin";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: -0.308px;
+    text-decoration-line: underline;
+}
+.p3 {
+    color: #FFF;
+    font-family: "Libre Franklin";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: -0.396px;
+}
+@media all and (max-width:600px){
+    #gallery {
+        grid-template-columns:1fr;
+    }
+    .menu{
+        display: inline;
+        align-items:right;
+        padding-left: 280px;
+    }
+    .inner-nav {
+        display: none;
+        padding: none;    
+    }
+    /* .heroImg {
+        display:flex; */
+        /* flex-direction: row; */
+        /* width: 600px; */
+        /* grid-template-columns:1fr;
+        grid-column: 5 / 6;
+        grid-row: 2 /3;
+        order: 0; */
+    /* } */
+    .responsive {
+        width: 600px;
+        height: 143px;
+      }
+    .announcement{
+        /* display: flex; */
+        width: 438px;
+        list-style-type: none;
+        /* margin: 0;  */
+        float: left;
+        display: block;
+        /* height: 122px; */
+        flex-shrink: 0;
+        background-color: #F4DF57;
+        color: #000;
+        text-align: center;
+        font-family: "Libre Franklin";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+  }
+  .columncal{
+    /* width: 100%; */
+  }
+    .calender-h1{
+        font-size: 30px;
+        padding-top: 130px;
+        }
+    .calenderimg{
+        display: flex;
+        width: 600px;
+        display: flex;
+        flex-wrap: wrap;
+}
+    .calender-h2{
+        font-size: 20px;
+        padding-top: 20px;
+    }    
+    .calender-p2{
+        align-items: center;
+        flex-direction: none; 
+        display: flex;
+        flex-direction: column;
+       }
+    .toyota{
+      }
+   footer{
+    /* flex-direction: none; */
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+
+    
+}
+    .column1 {
+        width: 100%;
+        text-align: left;
+        padding: none;
+        margin: none;
+        align-items: center;
+        flex-wrap: nowrap;
+
+      }
+    .column2 {
+        width: 100%;
+        text-align: left;
+        padding: none;
+        margin: none;
+        /* align-items: center; */
+        flex-wrap: nowrap;
+        align-content: center;
+
+      }
+      .column2 img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+     
+}
